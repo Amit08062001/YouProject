@@ -1,0 +1,96 @@
+/* General reset */
+* {
+    margin: 0;
+        padding: 0;
+            box-sizing: border-box;
+            }
+
+            /* Navbar */
+            .navbar {
+                display: flex;
+                    justify-content: space-between;
+                        align-items: center;
+                            background-color: #111;
+                                color: white;
+                                    padding: 10px 15px;
+                                    }
+
+                                    .navbar-logo {
+                                        font-size: 20px;
+                                            font-weight: bold;
+                                            }
+
+                                            .navbar-search input {
+                                                padding: 8px;
+                                                    border-radius: 5px;
+                                                        border: none;
+                                                            width: 200px;
+                                                            }
+
+                                                            /* Video Feed */
+                                                            .video-feed {
+                                                                display: flex;
+                                                                    flex-direction: column;
+                                                                        padding: 15px;
+                                                                        }
+
+                                                                        .video-card {
+                                                                            display: flex;
+                                                                                flex-direction: column;
+                                                                                    margin-bottom: 15px;
+                                                                                        background-color: #222;
+                                                                                            border-radius: 10px;
+                                                                                                overflow: hidden;
+                                                                                                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+                                                                                                    }
+
+                                                                                                    .video-thumbnail {
+                                                                                                        width: 100%;
+                                                                                                            height: 180px;
+                                                                                                                object-fit: cover;
+                                                                                                                }
+
+                                                                                                                .video-details {
+                                                                                                                    padding: 10px;
+                                                                                                                        color: #ddd;
+                                                                                                                        }
+
+                                                                                                                        .video-details h3 {
+                                                                                                                            font-size: 16px;
+                                                                                                                                margin-bottom: 5px;
+                                                                                                                                }
+
+                                                                                                                                .video-details p {
+                                                                                                                                    font-size: 12px;
+                                                                                                                                    }
+
+                                                                                                                                    /* Video Player */
+                                                                                                                                    .video-player {
+                                                                                                                                        display: none; /* Hidden by default */
+                                                                                                                                            margin-top: 20px;
+                                                                                                                                                background-color: #111;
+                                                                                                                                                }
+
+                                                                                                                                                /* Media Query for Mobile */
+                                                                                                                                                @media (max-width: 480px) {
+                                                                                                                                                    .navbar-logo {
+                                                                                                                                                            font-size: 18px;
+                                                                                                                                                                }
+
+                                                                                                                                                                    .navbar-search input {
+                                                                                                                                                                            width: 150px;
+                                                                                                                                                                                }
+
+                                                                                                                                                                                    .video-card {
+                                                                                                                                                                                            margin-bottom: 10px;
+                                                                                                                                                                                                }
+
+                                                                                                                                                                                                    .video-details h3 {
+                                                                                                                                                                                                            font-size: 14px;
+                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                    .video-details p {
+                                                                                                                                                                                                                            font-size: 10px;
+                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                
